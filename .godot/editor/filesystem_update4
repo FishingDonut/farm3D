@@ -1,6 +1,0 @@
-res://prefabs/world/main.tscn
-res://prefabs/player/player.tscn
-res://prefabs/player/player.gd
-res://Scripts/Camera/camera.gd
-res://Scripts/Global.gd
-res://prefabs/camera/camera.tscn
