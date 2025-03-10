@@ -1,0 +1,17 @@
+C:\Users\Danie\OneDrive\Documentos\test3d\.godot\mono\temp\bin\Debug\Test3D.deps.json
+C:\Users\Danie\OneDrive\Documentos\test3d\.godot\mono\temp\bin\Debug\Test3D.runtimeconfig.json
+C:\Users\Danie\OneDrive\Documentos\test3d\.godot\mono\temp\bin\Debug\Test3D.dll
+C:\Users\Danie\OneDrive\Documentos\test3d\.godot\mono\temp\bin\Debug\Test3D.pdb
+C:\Users\Danie\OneDrive\Documentos\test3d\.godot\mono\temp\bin\Debug\GodotSharp.dll
+C:\Users\Danie\OneDrive\Documentos\test3d\.godot\mono\temp\bin\Debug\GodotSharpEditor.dll
+C:\Users\Danie\OneDrive\Documentos\test3d\.godot\mono\temp\obj\Debug\Test3D.csproj.AssemblyReference.cache
+C:\Users\Danie\OneDrive\Documentos\test3d\.godot\mono\temp\obj\Debug\Test3D.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Danie\OneDrive\Documentos\test3d\.godot\mono\temp\obj\Debug\Test3D.AssemblyInfoInputs.cache
+C:\Users\Danie\OneDrive\Documentos\test3d\.godot\mono\temp\obj\Debug\Test3D.AssemblyInfo.cs
+C:\Users\Danie\OneDrive\Documentos\test3d\.godot\mono\temp\obj\Debug\Test3D.csproj.CoreCompileInputs.cache
+C:\Users\Danie\OneDrive\Documentos\test3d\.godot\mono\temp\obj\Debug\Test3D.csproj.Up2Date
+C:\Users\Danie\OneDrive\Documentos\test3d\.godot\mono\temp\obj\Debug\Test3D.dll
+C:\Users\Danie\OneDrive\Documentos\test3d\.godot\mono\temp\obj\Debug\refint\Test3D.dll
+C:\Users\Danie\OneDrive\Documentos\test3d\.godot\mono\temp\obj\Debug\Test3D.pdb
+C:\Users\Danie\OneDrive\Documentos\test3d\.godot\mono\temp\obj\Debug\Test3D.genruntimeconfig.cache
+C:\Users\Danie\OneDrive\Documentos\test3d\.godot\mono\temp\obj\Debug\ref\Test3D.dll

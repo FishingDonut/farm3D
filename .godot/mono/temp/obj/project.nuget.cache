@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "aWWZ2Qdw+Kk=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Danie\\OneDrive\\Documentos\\test3d\\Test3D.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Danie\\.nuget\\packages\\godot.sourcegenerators\\4.4.0\\godot.sourcegenerators.4.4.0.nupkg.sha512",
+    "C:\\Users\\Danie\\.nuget\\packages\\godotsharp\\4.4.0\\godotsharp.4.4.0.nupkg.sha512",
+    "C:\\Users\\Danie\\.nuget\\packages\\godotsharpeditor\\4.4.0\\godotsharpeditor.4.4.0.nupkg.sha512",
+    "C:\\Users\\Danie\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.13\\microsoft.netcore.app.ref.8.0.13.nupkg.sha512",
+    "C:\\Users\\Danie\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.13\\microsoft.windowsdesktop.app.ref.8.0.13.nupkg.sha512",
+    "C:\\Users\\Danie\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.13\\microsoft.aspnetcore.app.ref.8.0.13.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,97 @@
+[gd_scene load_steps=3 format=3 uid="uid://cjlwb0gcrlny5"]
+
+[ext_resource type="PackedScene" uid="uid://c768vc4qweoea" path="res://prefabs/camera/camera.tscn" id="1_2qx71"]
+[ext_resource type="PackedScene" uid="uid://86ptmdx4es3e" path="res://prefabs/player/player.tscn" id="1_rdgik"]
+
+[node name="Main" type="Node3D"]
+
+[node name="Camera" parent="." instance=ExtResource("1_2qx71")]
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(0.599024, 0.281731, -0.749532, 1.48827e-08, 0.93606, 0.351842, 0.800732, -0.210761, 0.560722, -2.2, 8.7, 11.2)
+shadow_enabled = true
+
+[node name="floor" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1, 0)
+use_collision = true
+size = Vector3(100, 1, 100)
+
+[node name="CSGCombiner3D" type="CSGCombiner3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1, 0)
+use_collision = true
+
+[node name="CSGBox3D" type="CSGBox3D" parent="CSGCombiner3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5, 1, -3)
+size = Vector3(6, 6, 1)
+
+[node name="CSGBox3D2" type="CSGBox3D" parent="CSGCombiner3D"]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -3, 1, 0.5)
+size = Vector3(6, 6, 1)
+
+[node name="CSGBox3D3" type="CSGBox3D" parent="CSGCombiner3D"]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 2, 1, 0.5)
+size = Vector3(6, 6, 1)
+
+[node name="CSGBox3D4" type="CSGBox3D" parent="CSGCombiner3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5, 1, 4)
+size = Vector3(6, 6, 1)
+
+[node name="CSGBox3D5" type="CSGBox3D" parent="CSGCombiner3D/CSGBox3D4"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0999999, 0.05, 0)
+operation = 2
+size = Vector3(2, 1.7, 1.2)
+
+[node name="CSGBox3D5" type="CSGBox3D" parent="CSGCombiner3D"]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 3.01493, 1, 10.9469)
+size = Vector3(15, 6, 1)
+
+[node name="CSGBox3D8" type="CSGBox3D" parent="CSGCombiner3D"]
+transform = Transform3D(-0.642788, 0, -0.766044, 0, 1, 0, 0.766044, 0, -0.642788, 0.80777, 1, 20.6171)
+size = Vector3(7.8, 6, 1)
+
+[node name="CSGBox3D9" type="CSGBox3D" parent="CSGCombiner3D/CSGBox3D8"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.399998, 0.6, -9.53674e-07)
+operation = 2
+size = Vector3(1, 0.2, 1)
+
+[node name="CSGBox3D6" type="CSGBox3D" parent="CSGCombiner3D"]
+transform = Transform3D(-0.642788, 0, -0.766044, 0, 1, 0, 0.766044, 0, -0.642788, -7.385, 1, 9.347)
+size = Vector3(15, 4, 1)
+
+[node name="CSGBox3D7" type="CSGBox3D" parent="CSGCombiner3D"]
+transform = Transform3D(-0.754407, -0.173648, 0.633022, -0.133022, 0.984808, 0.111619, -0.642788, 0, -0.766045, -6.485, 0.9, 19.247)
+size = Vector3(15, 4, 1)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="CSGCombiner3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 13.4608)
+
+[node name="CSGCylinder3D5" type="CSGCylinder3D" parent="CSGCombiner3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.8, 1.925, 8.76084)
+height = 3.25
+
+[node name="CSGCylinder3D6" type="CSGCylinder3D" parent="CSGCombiner3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.3, 2.05, 8.76084)
+height = 3.5
+
+[node name="CSGCylinder3D7" type="CSGCylinder3D" parent="CSGCombiner3D"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, -4.1, 3.8, 9.61084)
+height = 1.7
+
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="CSGCombiner3D"]
+transform = Transform3D(-4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0, 1, 1.8, 0.7, 16.1608)
+
+[node name="CSGCylinder3D4" type="CSGCylinder3D" parent="CSGCombiner3D"]
+transform = Transform3D(-4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0, 1, -2.1, 3.8, 8.96084)
+height = 9.8
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="CSGCombiner3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.5, 2, 14.8608)
+height = 4.0
+
+[node name="CSGCylinder3D8" type="CSGCylinder3D" parent="CSGCombiner3D/CSGCylinder3D2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.6, -0.175, 0.3)
+operation = 2
+height = 0.45
+
+[node name="Player" parent="." instance=ExtResource("1_rdgik")]
+transform = Transform3D(0.642788, 0, -0.766044, 0, 1, 0, 0.766044, 0, 0.642788, -4.2, 1.2, 11.7)

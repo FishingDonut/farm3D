@@ -1,0 +1,29 @@
+[gd_scene load_steps=3 format=3 uid="uid://86ptmdx4es3e"]
+
+[ext_resource type="Script" uid="uid://c2n2g2mqwc0oy" path="res://prefabs/player/player.gd" id="1_sxsrd"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_rdx4y"]
+
+[node name="Player" type="CharacterBody3D"]
+script = ExtResource("1_sxsrd")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
+shape = SubResource("CapsuleShape3D_rdx4y")
+debug_color = Color(4.81307e-07, 0.5753, 0.671529, 0.42)
+
+[node name="CSGSphere3D" type="CSGSphere3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.5, 0)
+rings = 12
+
+[node name="CSGSphere3D2" type="CSGSphere3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.5, 0.5)
+radius = 0.2
+rings = 12
+
+[node name="CSGSphere3D3" type="CSGSphere3D" parent="."]
+radius = 0.2
+rings = 12
+
+[node name="RemoteCamera" type="RemoteTransform3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5, 0)
